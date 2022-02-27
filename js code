@@ -1,0 +1,49 @@
+//for the assignment, we need a timer to count down from 50 to 0 by 5 second inrecements and show blast off at 0
+//for my example we are going to coun down from 20 to 0 by 2 second increments and show "blastoff" at 0
+function BLASTOFF timer()
+    console.log("blastoff timer() started");
+    var currtime =20;
+    Document.getelementbyid("Blastofftext").innerhtml = currtime;
+    console.log("20");
+    currtime=currtime - 2;
+    setTimeout(Function)(){
+        console.log(currtime);
+        Document.getelementbyid("Blastofftext").innerhtml =currtime;
+        currtime = currtime - 2;
+    },2000);
+}
+console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},4000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},6000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},8000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},10000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},12000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},14000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},16000);
+} console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml =currtime;
+currtime = currtime - 2;
+},18000); console.log(currtime);
+Document.getelementbyid("Blastofftext").innerhtml ="BLASTOFF";
+currtime = currtime - 2;
+},20000);
